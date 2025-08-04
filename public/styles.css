@@ -12,6 +12,8 @@ body {
     width: 100%;
   }
   
+  /* Sidebar */
+
   .sidebar {
     width: 220px;
     background-color: #a5d6a7; /* ljusare grön */
