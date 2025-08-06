@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -9,22 +8,19 @@
     <script type="module" src="/src/main.tsx"></script>
   </head>
   <body>
-    <div id="root"></div>
     <div class="layout">
       <aside class="sidebar">
         <h1>Trainify</h1>
         <nav>
-          <a href="Home">🏠 Home</a>
-          <a href="Calender">📅 Calender</a>
-          <a href="Workouts">🏋️‍♀️ Workouts</a>
-          <a href="Nutrition">🥗 Nutrition</a>
+          <a href="/home">🏠 Home</a>
+          <a href="/calendar">📅 Calendar</a>
+          <a href="/workouts">🏋️‍♀️ Workouts</a>
+          <a href="/nutrition">🥗 Nutrition</a>
         </nav>
       </aside>
       <main class="content">
-        <!-- Här hamnar resten av innehållet -->
-        <h2>Welcome!👋</h2>
-        <p>Start your workout journey here!💪</p>
-        <p>PS Sometimes the journey is better then the destination 😊</p>
+        <!-- This is where React will render -->
+        <div id="root"></div>
       </main>
     </div>
   </body>

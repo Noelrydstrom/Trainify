@@ -3,8 +3,8 @@ body {
     font-family: sans-serif;
     display: flex;
     height: 100vh;
-    background-color: #e8f5e9; /* ljusgrön bakgrund */
-    color: #1b5e20; /* mörkgrön text */
+    background-color: transparent; /* no global background */
+    color: #1b5e20; /* dark green text */
   }
   
   .layout {
@@ -13,10 +13,9 @@ body {
   }
   
   /* Sidebar */
-
   .sidebar {
     width: 220px;
-    background-color: #a5d6a7; /* ljusare grön */
+    background-color: #a5d6a7; /* light green */
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -39,7 +38,7 @@ body {
   
   .sidebar a {
     text-decoration: none;
-    color: #2e7d32; /* mellan-grön */
+    color: #2e7d32; /* medium green */
     font-size: 20px;
     padding: 0.5rem;
     border-radius: 6px;
@@ -47,13 +46,14 @@ body {
   }
   
   .sidebar a:hover {
-    background-color: #c8e6c9; /* ännu ljusare grön */
+    background-color: #c8e6c9; /* lighter green */
     color: #1b5e20;
   }
   
+  /* Content area without default background */
   .content {
     flex-grow: 1;
     padding: 2rem;
-    background-color: #f1f8e9; /* nästan vit med lite grönt */
+    background-color: transparent; /* let pages decide */
   }
   
